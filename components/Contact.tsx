@@ -16,7 +16,7 @@ export default function Contact() {
 
   // Initialize EmailJS
   useEffect(() => {
-    emailjs.init('_69UA1TNtx6lmKAiK')
+    emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || '')
   }, [])
 
   useEffect(() => {
@@ -58,8 +58,8 @@ export default function Contact() {
       }
 
       await emailjs.send(
-        'service_0tnk19v',
-        'template_xise0bp',
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '',
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || '',
         templateParams
       )
 
