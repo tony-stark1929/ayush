@@ -13,7 +13,7 @@ const experiences: ExperienceItem[] = [
   {
     title: 'Backend Developer',
     company: 'TechDefenders Consulting Pvt. Ltd.',
-    period: 'September 2025 - Present',
+    period: 'September 2025 - March 2026',
     description: [
       'Developed backend services and APIs using Node.js for scalable web applications',
       'Collaborated with frontend developers to build responsive interfaces using React.js',
