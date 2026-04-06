@@ -57,7 +57,7 @@ export default function About() {
             </div>
             <div className="card-border p-6 rounded-lg backdrop-blur-sm hover:border-sky-500/50 transition-all duration-300">
               <h3 className="text-lg font-bold text-sky-500 mb-2">💼 Current Role</h3>
-              <p className="text-gray-700">Backend Developer<br/><span className="text-sm text-gray-600">TechDefenders Consulting Pvt. Ltd.<br/>Sept 2025 - Present</span></p>
+              <p className="text-gray-700">Backend Developer<br/><span className="text-sm text-gray-600">TechDefenders Consulting Pvt. Ltd.<br/>Sept 2025 - March 2026</span></p>
             </div>
             <div className="card-border p-6 rounded-lg backdrop-blur-sm hover:border-sky-500/50 transition-all duration-300">
               <h3 className="text-lg font-bold text-sky-500 mb-2">🏆 Senior School</h3>
